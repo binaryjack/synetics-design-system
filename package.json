@@ -3,21 +3,21 @@
   "version": "0.7.0-alpha",
   "description": "Framework-agnostic design tokens for the Pulsar ecosystem",
   "type": "module",
-  "main": "./dist/src/index.js",
-  "module": "./dist/src/index.js",
-  "types": "./dist/src/index.d.ts",
+  "main": "./src/index.ts",
+  "module": "./src/index.ts",
+  "types": "./src/index.ts",
   "exports": {
     ".": {
-      "import": "./dist/src/index.js",
-      "types": "./dist/src/index.d.ts"
+      "import": "./src/index.ts",
+      "types": "./src/index.ts"
     },
     "./tokens": {
-      "import": "./dist/src/tokens/index.js",
-      "types": "./dist/src/tokens/index.d.ts"
+      "import": "./src/tokens/index.ts",
+      "types": "./src/tokens/index.ts"
     },
     "./art-kit": {
-      "import": "./dist/art-kit/index.js",
-      "types": "./dist/art-kit/index.d.ts"
+      "import": "./art-kit/index.ts",
+      "types": "./art-kit/index.ts"
     }
   },
   "scripts": {
@@ -26,7 +26,7 @@
     "build:css": "tsx build/cli.ts ./dist",
     "dev": "tsc --watch",
     "typecheck": "tsc --noEmit",
-    "test": "vitest",
+    "test": "vitest run",
     "prepublishOnly": "pnpm build && pnpm build:css"
   },
   "keywords": [

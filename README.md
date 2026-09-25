@@ -1,5 +1,3 @@
-<img src="https://raw.githubusercontent.com/binaryjack/synetics-design-system/main/art-kit/SVG/pulsar-logo.svg" alt="Synetics" width="400"/>
-
 # @synetics/design-tokens
 
 Framework-agnostic design tokens and brand assets for the Synetics ecosystem.

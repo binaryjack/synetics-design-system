@@ -9,6 +9,7 @@ export * from './shadow-tokens';
 export * from './spacing-tokens';
 export * from './transition-tokens';
 export * from './typography-tokens';
+export * from './generate-theme-css';
 
 // Export utility functions
 export * from '../utility';
