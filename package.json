@@ -1,7 +1,7 @@
 {
   "name": "@synetics/design-tokens",
   "version": "0.7.0-alpha",
-  "description": "Framework-agnostic design tokens for the Pulsar ecosystem",
+  "description": "Framework-agnostic design tokens for the Synetics ecosystem",
   "type": "module",
   "main": "./src/index.ts",
   "module": "./src/index.ts",
@@ -30,7 +30,7 @@
     "prepublishOnly": "pnpm build && pnpm build:css"
   },
   "keywords": [
-    "pulsar",
+    "synetics",
     "design-system",
     "design-tokens",
     "css-variables",

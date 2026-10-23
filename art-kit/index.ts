@@ -26,6 +26,11 @@ export const PULSAR_ICON_SVG = `${GITHUB_RAW_BASE}/SVG/pulsar-icon.svg`;
 export const PULSAR_LOGO_SVG = `${GITHUB_RAW_BASE}/SVG/pulsar-logo.svg`;
 export const PULSAR_LOGO_WITH_NAME_SVG = `${GITHUB_RAW_BASE}/SVG/pulsar-logo-name.svg`;
 
+// Synetics brand aliases
+export const SYNETICS_ICON_SVG = PULSAR_ICON_SVG;
+export const SYNETICS_LOGO_SVG = PULSAR_LOGO_SVG;
+export const SYNETICS_LOGO_WITH_NAME_SVG = PULSAR_LOGO_WITH_NAME_SVG;
+
 // Logo variations by resolution
 export const PULSAR_LOGOS = {
   svg: {

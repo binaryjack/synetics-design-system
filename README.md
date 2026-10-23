@@ -47,10 +47,10 @@ const fontSize = typographyTokens.fontSize.base
 ### Art-Kit (Logos & Icons)
 
 ```typescript
-import { PULSAR_LOGO_SVG, ICONS } from '@synetics/design-tokens/art-kit'
+import { SYNETICS_LOGO_SVG, ICONS } from '@synetics/design-tokens/art-kit'
 
 // Use logos
-const logo = PULSAR_LOGO_SVG
+const logo = SYNETICS_LOGO_SVG
 
 // Use icons (63 available)
 const typescriptIcon = ICONS.typescript
@@ -121,7 +121,7 @@ The art-kit includes 66 brand assets auto-generated from SVG files:
 
 1. Add SVG file to `art-kit/SVG/` with naming convention:
    - Icons: `icon-{name}.svg`
-   - Logos: `pulsar-{variant}.svg`
+   - Logos: `synetics-{variant}.svg`
 
 2. Regenerate the index:
    ```bash
@@ -216,4 +216,4 @@ See [LICENSE](./LICENSE) file for details.
 
 ---
 
-**Connect:** [LinkedIn](https://www.linkedin.com/in/tadeopiana/) • **Explore:** [Synetics Ecosystem](#pulsar-ecosystem)
+**Connect:** [LinkedIn](https://www.linkedin.com/in/tadeopiana/) • **Explore:** [Synetics Ecosystem](#synetics-ecosystem)
